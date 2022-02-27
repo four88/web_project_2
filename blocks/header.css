@@ -76,11 +76,11 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 72px;
+    padding-bottom: 28px;
 }
 
 .header__description{
     margin: auto 0;
-    padding-top: 28px;
     font-family: Noto serif;
     font-size: 20px;
     line-height: 30px;
