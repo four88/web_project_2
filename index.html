@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./blocks/font.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="nav">
+                <img src="./images/logo_coffee_shop.svg"
+                alt="Practicum Coffee logo"
+                class="logo">
+                
+                <ul class="nav__links">
+                    <li><a href="#menu" class="nav__link">Menu</a></li>
+                    <li><a href="#recipes" class="nav__link">Recipes</a></li>
+                    <li><a href="#reservation" class="nav__link">Book a table</a></li>
+                    <li><a href="#about" class="nav__link">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__span">            
+                <span class="header__span-accent">Specialty coffee</span>
+                <h1 class="header__title">in the Practicum Library</h1>
+            </div>
+
+            <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and <br> the cozy vibes to help your get creative</p>
+            <img src="./images/inside_coffee_shop.png" alt="header image" class="header__image">
+            <div class="header__footer">
+
+                <div class= "header__paragraph">
+                        <p class="header__paragraph__list-item">Hours:</p>
+                        <p class="header__paragraph__list-item">Monday - Friday (10:00 - 19:00)</p>
+                        <p class="header__paragraph__list-item">Saturday - Sunday (11:00 - 18:00)</p>
+                </div>
+
+                <div class="header__address">200 Success Avenue, The Town of Practicum</div>
+                
+            </div>
+
+        </header>
+
+
+        <section class="menu" id="menu">
+            <h1 class="menu__title">Menu</h1>
+            <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and
+                and use <br>biodegradable cups. All teas from our collection are $2/cup.</p>
+
+            <div class="menu__cards">
+
+                <div class="card">
+                    <h1 class="card__title">Filter</h1>
+                    <ul class="card__content">
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Regular(12oz)
+                        </span>$1</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Large(16oz)
+                        </span>$1.25</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            XL(20oz)
+                        </span>$1.5</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Party-size(24oz, decaf)
+                        </span>$1.75</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Iced coffee(16oz)
+                        </span>$1.25</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h1 class="card__title">Espresso</h1>
+                    <ul class="card__content">
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Macchiato
+                        </span>$2.25</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Cortado
+                        </span>$2.5</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Mocha
+                        </span>$3</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Sunrise in the Bay Area (decaf)
+                        </span>$10</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h1 class="card__title">Baked Goods</h1>
+                    <ul class="card__content">
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Almond croissant
+                        </span>$2</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Banana Bread
+                        </span>$1.75</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Key Lime Pie
+                        </span>$3</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Blue Velvet Cake
+                        </span>$3.75</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Web Cookie
+                        </span>$2</li>
+                        <li class="card__list-item"><span class="card__list-divider">
+                            Fresh Bug'uette
+                        </span>$0.25</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="recipes" id="recipes">
+            <h1 class="recipes__title">Recipes</h1>
+            <p class="recipes__subtitle">Check  out  some  recipes  we've  collected  for your  home-brewing  convenience:</p>
+            <div class="recipes__videos">
+
+                <div class="recipes__iframe">
+                    <iframe src="https://www.youtube.com/embed/j6VlT_jUVPc" frameborder="0" width="480px" height="273px" type="text/html" allowfullscreen></iframe>
+                    <p class="recipes__video-caption">Aeropress recipe</p>
+                    <p class="recipes__video-caption">~5 min</p>
+                </div>
+
+                <div class="recipes__iframe">
+                    <iframe src="https://www.youtube.com/embed/st571DYYTR8" frameborder="0" width="480px" height="273px" type="text/html" allowfullscreen></iframe>
+                    <p class="recipes__video-caption">French press recipe</p>
+                    <p class="recipes__video-caption">~15 min</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="reservation" id="reservation">
+            <h1 class="reservation__title">Book a table</h1>
+            <form class="form reservation__form">
+                <fieldset class="form__fieldset">
+                    
+                    <label for="name" class="form__label">Name *</label>
+                    <input type="text" class="form__input" id="name" placeholder="Name Surname" required>
+
+                    <label for="guest" class="form__label">Number of guests *</label>
+                    <input type="number" class="form__input" id="guest" placeholder="1-8" required>
+
+                    <label for="date" class="form__label">Date and time *</label>
+                    <input type="date" class="form__input" id="date" placeholder="dd.mm.yyyy" required>
+                    
+                    <label for="email" class="form__label">Your email *</label>
+                    <input type="email" class="form__input" id="email" placeholder="email@email.com" required>
+
+                    <button type="submit" class="form__button">Book a table</button>
+                    
+                    <label for="checkbox" class="form__label">
+                        <input type="checkbox" class="form__checkbox" id="checkbox" name="checkbox" required>
+                        I agree with the terms of use
+                    </label>
+                    
+                </fieldset>
+            </form>
+
+        </section>
+
+
+        <section class="about" id="about">
+            <h1 class="about__title">About the<br>coffee shop</h1>
+            <div class="about__content">
+                <p class="about__paragraph">
+                    Our coffee shop is located in the Practicum Library's hall. It features <br> 6 tables and free WiFi.
+                </p>
+                <p class="about__paragraph">Our main mission is keep guests cozy an energized</p>
+
+                <p class="about__paragraph">
+                    Beside that, we try to reduce our environment impact -- so we
+                </p>
+                <p class="about__paragraph">
+                    don't sell single-use cups, But you can buy one of reuseable cup!
+                </p>    
+            </div>
+
+            <div class="about__circle about__circle_animation_blurred"></div>
+
+        </section>
+
+
+        <footer class="footer" id="footer">
+
+            <div class="footer__content">
+            
+    
+                <img src="./images/logo_practicum.svg" alt="logo white" class="footer__logo">
+    
+                <div class=" footer__content footer__social">
+                    <h4 class="footer__social-heading">Social media</h4>
+                    
+                    <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__column-link">
+                        <img src="./images/facebook_white.svg" class="footer__social-icon" alt ="facebook icon">
+                        Facebook
+                        </a>
+                    </li>
+        
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__column-link">
+                        <img src="./images/instagram_white.svg" class="footer__social-icon" alt ="instagram icon">
+                        Instagram
+                        </a>
+                    </li>
+                    
+                    </ul>
+                </div>
+                </div>
+                
+        
+        
+            <p class="footer__copyrights"><time datetime="2022">© 2022 [Pharanyu Chuenjit]</time></p>
+
+        </footer>
+    </div>
+</body>
+</html>
