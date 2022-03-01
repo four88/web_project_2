@@ -38,6 +38,11 @@
     width: 600px;
 }
 
+.about__paragraph{
+    margin:0;
+    padding-bottom: 15px;
+}
+
 .about__circle{
     background-color: #2f80ed;
     width: 430px;

@@ -44,6 +44,10 @@
     padding-bottom: 16px;
 }
 
+.footer__list-item:last-of-type{
+    padding-bottom: 0;
+}
+
 .footer__social-heading {
     padding-bottom: 20px;
     margin: 0;
