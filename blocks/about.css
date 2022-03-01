@@ -11,12 +11,13 @@
     color: #ffffff;
     background-color: #0a2750;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .about__title{
@@ -35,12 +36,16 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    width: 600px;
+    width: 650px;
 }
 
 .about__paragraph{
     margin:0;
     padding-bottom: 15px;
+}
+
+.about__paragraph:last-of-type{
+    padding-bottom: 0;
 }
 
 .about__circle{

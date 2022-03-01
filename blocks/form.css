@@ -43,7 +43,7 @@
 }
 
 .form__button{
-    border-radius: 4px solid #8b8b8b;
+    border-radius: 4px;
     width: 100%;
     border: none;
     padding: 15px;
