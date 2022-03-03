@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     min-height: 720px;
     max-height: 800px;
-    
+    z-index: -2;
 }
 
 
@@ -25,6 +25,7 @@
     margin-top: 0;
     margin-bottom:0;
     padding-bottom: 28px;
+    
 }
 
 .header__span-accent{
@@ -34,7 +35,7 @@
     color: #2F80ED;
     font-size: 60px;
     line-height: 72px;
-    display:block;
+    display: block;
 }
 
 .header__title{
@@ -50,14 +51,17 @@
     font-family: Noto serif;
     font-size: 20px;
     line-height: 30px;
+    
 }
+
 .header__image{
     position:absolute;
-    z-index: 0;
+    z-index: -1;
     right: 5px;
     top: 124px;
     max-width: 600px;
 }
+
 .header__footer{
     font-weight: 500;
     color: #838383;
